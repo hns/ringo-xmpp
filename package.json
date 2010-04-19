@@ -1,0 +1,14 @@
+{
+    "name": "ringo-xmpp",
+    "version": "0.0.0",
+    "description": "Write Jabber/XMPP components in RingoJS",
+    "keywords": ["jabber", "xmpp"],
+    "author": "Hannes Wallnöfer (http://henso.com/) <hannes@helma.at>",
+    "jars": [
+        "jars/whack-snapshot-r11680.jar",
+        "jars/tinder-1.2.1.jar",
+        "jars/xpp3-1.1.4c.jar",
+        "jars/dom4j-1.6.1.jar",
+        "jars/libidn-1.18.jar"
+    ]
+}
