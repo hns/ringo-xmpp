@@ -5,7 +5,7 @@ It is based on the [Tinder](http://www.igniterealtime.org/projects/tinder/index.
 and [Whack](http://www.igniterealtime.org/projects/whack/index.jsp) libraries from
 Jive Software. It is also inspired by Matthew Wild's
 [xmppjs](http://github.com/mwild1/xmppjs) project, from which I thankfully borrowed
-a part of this README file.
+parts of this README file.
 
 To install ringo-xmpp as a RingoJS package run the following command:
 
@@ -19,15 +19,15 @@ can in turn send any XMPP packets to any client.
 
 To run the example script, you need an XMPP/Jabber server that supports
 [external components](http://xmpp.org/extensions/xep-0114.html). I recommend
-[Prosody](http://prosody.im/) server which is written in Lua, has few dependencies,
+[Prosody](http://prosody.im/) which is written in Lua, has few dependencies,
 is lightweight and easy to configure.
 
 If you have a local Prosody server running, add the following to its configuration file:
 
         component_ports = 5347
 
-        Component "test.localhost"
-            component_secret = "foo"
+        Component "echo.localhost"
+            component_secret = "secret"
 
 After restarting Prosody try running:
 
